@@ -1,0 +1,51 @@
+id,titre,pays,secteur,bailleur,organisation,budget_eur,duree_mois,score_moyen,nb_lecons,nb_recommandations
+1,Évaluation thématique — Programme Education & Emploi au Niger,Niger,Education & Emploi,Banque Mondiale,Handicap International,1670528,26,4.8,4,3
+2,Évaluation mi-parcours — Programme Environnement au Sénégal,Sénégal,Environnement,AFD,CARE,554515,29,5.0,2,3
+3,Évaluation finale — Programme Education & Emploi au RCA,RCA,Education & Emploi,UNICEF,Oxfam,1161023,36,8.1,4,2
+4,Évaluation thématique — Programme Gouvernance au Burkina Faso,Burkina Faso,Gouvernance,UNICEF,Handicap International,3480226,35,6.3,2,4
+5,Évaluation finale — Programme Eau & Assainissement au RCA,RCA,Eau & Assainissement,UE/FED,Action Contre la Faim,3146211,14,6.4,3,4
+6,Évaluation finale — Programme Environnement au Mauritanie,Mauritanie,Environnement,UE/FED,Oxfam,3536646,37,6.1,2,2
+7,Évaluation thématique — Programme Gouvernance au Sénégal,Sénégal,Gouvernance,ECHO,CARE,596309,28,5.5,4,2
+8,Évaluation mi-parcours — Programme Eau & Assainissement au Mauritanie,Mauritanie,Eau & Assainissement,LuxDev,Handicap International,2168587,44,7.1,2,4
+9,Évaluation thématique — Programme Eau & Assainissement au Niger,Niger,Eau & Assainissement,AFD,Oxfam,4576783,17,6.6,2,2
+10,Évaluation thématique — Programme Eau & Assainissement au RCA,RCA,Eau & Assainissement,UE/FED,CARE,4175049,35,4.9,4,2
+11,Évaluation mi-parcours — Programme Education & Emploi au Mali,Mali,Education & Emploi,LuxDev,Action Contre la Faim,4813054,16,7.5,2,2
+12,Évaluation mi-parcours — Programme Eau & Assainissement au Niger,Niger,Eau & Assainissement,LuxDev,CARE,3948575,39,5.1,3,3
+13,Évaluation finale — Programme Gouvernance au Mali,Mali,Gouvernance,LuxDev,CARE,924365,18,6.8,4,2
+14,Évaluation mi-parcours — Programme Gouvernance au Burkina Faso,Burkina Faso,Gouvernance,UNICEF,Handicap International,4582495,47,5.0,2,2
+15,Évaluation thématique — Programme Environnement au Mauritanie,Mauritanie,Environnement,AFD,Action Contre la Faim,2058812,17,6.0,2,4
+16,Évaluation thématique — Programme Environnement au Mauritanie,Mauritanie,Environnement,UE/FED,Handicap International,2502242,32,5.1,3,4
+17,Évaluation finale — Programme Eau & Assainissement au Mauritanie,Mauritanie,Eau & Assainissement,UE/FED,Croix-Rouge,2549206,16,6.0,3,4
+18,Évaluation finale — Programme Santé au Niger,Niger,Santé,LuxDev,Oxfam,2863542,29,6.2,4,4
+19,Évaluation finale — Programme Santé au Mali,Mali,Santé,Banque Mondiale,CARE,581115,39,5.4,2,4
+20,Évaluation thématique — Programme Santé au Mali,Mali,Santé,Banque Mondiale,Croix-Rouge,3466871,18,6.6,4,2
+21,Évaluation finale — Programme Eau & Assainissement au Burkina Faso,Burkina Faso,Eau & Assainissement,AFD,Action Contre la Faim,4448434,14,5.6,2,3
+22,Évaluation thématique — Programme Santé au Burkina Faso,Burkina Faso,Santé,Banque Mondiale,Oxfam,3277886,46,5.5,2,2
+23,Évaluation mi-parcours — Programme Environnement au Niger,Niger,Environnement,UNICEF,Oxfam,872341,28,6.8,4,3
+24,Évaluation thématique — Programme Environnement au Burkina Faso,Burkina Faso,Environnement,Banque Mondiale,CARE,2980135,37,6.0,4,4
+25,Évaluation finale — Programme Environnement au RCA,RCA,Environnement,UE/FED,CARE,2292657,40,5.0,4,3
+26,Évaluation thématique — Programme Gouvernance au Mauritanie,Mauritanie,Gouvernance,LuxDev,CARE,2131040,48,7.4,4,2
+27,Évaluation finale — Programme Environnement au Sénégal,Sénégal,Environnement,LuxDev,Oxfam,4329079,19,6.0,2,3
+28,Évaluation mi-parcours — Programme Santé au Mauritanie,Mauritanie,Santé,UNICEF,Croix-Rouge,1149977,40,5.7,4,3
+29,Évaluation thématique — Programme Santé au Mauritanie,Mauritanie,Santé,UNICEF,CARE,4024419,25,6.7,3,3
+30,Évaluation thématique — Programme Environnement au Mauritanie,Mauritanie,Environnement,AFD,CARE,4156057,29,8.4,3,4
+31,Évaluation mi-parcours — Programme Environnement au RCA,RCA,Environnement,LuxDev,Action Contre la Faim,1638329,39,6.6,3,3
+32,Évaluation finale — Programme Santé au Niger,Niger,Santé,UNICEF,Action Contre la Faim,3435680,15,6.6,2,2
+33,Évaluation thématique — Programme Environnement au Mali,Mali,Environnement,UNICEF,Handicap International,1460771,22,6.2,2,4
+34,Évaluation mi-parcours — Programme Eau & Assainissement au Niger,Niger,Eau & Assainissement,Banque Mondiale,Handicap International,844512,19,6.4,3,3
+35,Évaluation thématique — Programme Gouvernance au RCA,RCA,Gouvernance,AFD,CARE,2765615,45,6.2,4,4
+36,Évaluation finale — Programme Gouvernance au Burkina Faso,Burkina Faso,Gouvernance,LuxDev,CARE,4589865,23,6.5,2,3
+37,Évaluation mi-parcours — Programme Gouvernance au Sénégal,Sénégal,Gouvernance,ECHO,Croix-Rouge,4617307,42,6.0,3,2
+38,Évaluation mi-parcours — Programme Gouvernance au RCA,RCA,Gouvernance,ECHO,Handicap International,2772611,41,7.3,3,4
+39,Évaluation finale — Programme Environnement au Mauritanie,Mauritanie,Environnement,ECHO,Handicap International,2985095,24,4.0,2,3
+40,Évaluation finale — Programme Gouvernance au Niger,Niger,Gouvernance,LuxDev,Oxfam,4515745,42,4.9,3,3
+41,Évaluation thématique — Programme Environnement au Burkina Faso,Burkina Faso,Environnement,LuxDev,Croix-Rouge,3991120,47,7.0,4,3
+42,Évaluation mi-parcours — Programme Education & Emploi au Mali,Mali,Education & Emploi,Banque Mondiale,Croix-Rouge,1817490,17,5.7,2,2
+43,Évaluation thématique — Programme Santé au RCA,RCA,Santé,UNICEF,Action Contre la Faim,2719245,26,5.4,4,4
+44,Évaluation thématique — Programme Environnement au Burkina Faso,Burkina Faso,Environnement,UNICEF,Action Contre la Faim,3876486,31,5.8,3,2
+45,Évaluation mi-parcours — Programme Environnement au Mauritanie,Mauritanie,Environnement,LuxDev,Handicap International,1969606,14,7.4,3,2
+46,Évaluation finale — Programme Education & Emploi au Mali,Mali,Education & Emploi,UE/FED,CARE,2917746,43,6.6,4,2
+47,Évaluation finale — Programme Environnement au Sénégal,Sénégal,Environnement,UNICEF,Action Contre la Faim,3534825,45,6.4,4,3
+48,Évaluation mi-parcours — Programme Eau & Assainissement au Burkina Faso,Burkina Faso,Eau & Assainissement,ECHO,Action Contre la Faim,1281895,38,6.8,2,2
+49,Évaluation thématique — Programme Gouvernance au Mali,Mali,Gouvernance,UNICEF,Oxfam,2098955,36,5.8,4,3
+50,Évaluation mi-parcours — Programme Gouvernance au Mali,Mali,Gouvernance,UNICEF,Oxfam,3288708,34,6.3,4,2
