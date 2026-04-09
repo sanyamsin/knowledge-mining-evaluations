@@ -1,0 +1,152 @@
+id_rapport,pays,secteur,bailleur,lecon,score_moyen,cluster
+1,Niger,Education & Emploi,Banque Mondiale,L'implication des communautés locales dans la conception du programme a significativement amélioré le taux de participation.,4.8,0
+1,Niger,Education & Emploi,Banque Mondiale,Le suivi post-formation est essentiel pour mesurer l'insertion durable à 12 mois.,4.8,0
+1,Niger,Education & Emploi,Banque Mondiale,Les modules de formation doivent être adaptés aux réalités du marché du travail local.,4.8,0
+1,Niger,Education & Emploi,Banque Mondiale,Les formations en compétences numériques ont augmenté l'employabilité des jeunes de 35%.,4.8,1
+2,Sénégal,Environnement,AFD,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,5.0,2
+2,Sénégal,Environnement,AFD,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,5.0,3
+3,RCA,Education & Emploi,UNICEF,Les formations en compétences numériques ont augmenté l'employabilité des jeunes de 35%.,8.1,1
+3,RCA,Education & Emploi,UNICEF,Le suivi post-formation est essentiel pour mesurer l'insertion durable à 12 mois.,8.1,0
+3,RCA,Education & Emploi,UNICEF,Les modules de formation doivent être adaptés aux réalités du marché du travail local.,8.1,0
+3,RCA,Education & Emploi,UNICEF,L'approche genre a permis d'augmenter la participation des filles de 20 points de pourcentage.,8.1,0
+4,Burkina Faso,Gouvernance,UNICEF,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,6.3,0
+4,Burkina Faso,Gouvernance,UNICEF,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,6.3,0
+5,RCA,Eau & Assainissement,UE/FED,Les comités de gestion de l'eau formés localement assurent une meilleure pérennité.,6.4,4
+5,RCA,Eau & Assainissement,UE/FED,La maintenance communautaire des infrastructures est clé pour la durabilité des interventions.,6.4,0
+5,RCA,Eau & Assainissement,UE/FED,L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.,6.4,2
+6,Mauritanie,Environnement,UE/FED,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,6.1,0
+6,Mauritanie,Environnement,UE/FED,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,6.1,2
+7,Sénégal,Gouvernance,ECHO,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,5.5,0
+7,Sénégal,Gouvernance,ECHO,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,5.5,0
+7,Sénégal,Gouvernance,ECHO,La formation des élus locaux améliore la qualité des services publics délivrés.,5.5,0
+7,Sénégal,Gouvernance,ECHO,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,5.5,1
+8,Mauritanie,Eau & Assainissement,LuxDev,Les comités de gestion de l'eau formés localement assurent une meilleure pérennité.,7.1,4
+8,Mauritanie,Eau & Assainissement,LuxDev,L'hygiène menstruelle doit être intégrée dans tous les programmes WASH scolaires.,7.1,3
+9,Niger,Eau & Assainissement,AFD,La qualité de l'eau doit être testée régulièrement — les résultats doivent être partagés avec les communautés.,6.6,3
+9,Niger,Eau & Assainissement,AFD,L'hygiène menstruelle doit être intégrée dans tous les programmes WASH scolaires.,6.6,3
+10,RCA,Eau & Assainissement,UE/FED,L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.,4.9,2
+10,RCA,Eau & Assainissement,UE/FED,La maintenance communautaire des infrastructures est clé pour la durabilité des interventions.,4.9,0
+10,RCA,Eau & Assainissement,UE/FED,La qualité de l'eau doit être testée régulièrement — les résultats doivent être partagés avec les communautés.,4.9,3
+10,RCA,Eau & Assainissement,UE/FED,Les comités de gestion de l'eau formés localement assurent une meilleure pérennité.,4.9,4
+11,Mali,Education & Emploi,LuxDev,Les formations en compétences numériques ont augmenté l'employabilité des jeunes de 35%.,7.5,1
+11,Mali,Education & Emploi,LuxDev,L'approche genre a permis d'augmenter la participation des filles de 20 points de pourcentage.,7.5,0
+12,Niger,Eau & Assainissement,LuxDev,La maintenance communautaire des infrastructures est clé pour la durabilité des interventions.,5.1,0
+12,Niger,Eau & Assainissement,LuxDev,La qualité de l'eau doit être testée régulièrement — les résultats doivent être partagés avec les communautés.,5.1,3
+12,Niger,Eau & Assainissement,LuxDev,L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.,5.1,2
+13,Mali,Gouvernance,LuxDev,Le dialogue entre société civile et autorités locales est un facteur clé de succès.,6.8,0
+13,Mali,Gouvernance,LuxDev,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,6.8,0
+13,Mali,Gouvernance,LuxDev,La formation des élus locaux améliore la qualité des services publics délivrés.,6.8,0
+13,Mali,Gouvernance,LuxDev,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,6.8,0
+14,Burkina Faso,Gouvernance,UNICEF,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,5.0,1
+14,Burkina Faso,Gouvernance,UNICEF,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,5.0,0
+15,Mauritanie,Environnement,AFD,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,6.0,0
+15,Mauritanie,Environnement,AFD,La reforestation participative avec les communautés assure une meilleure survie des plants.,6.0,4
+16,Mauritanie,Environnement,UE/FED,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,5.1,2
+16,Mauritanie,Environnement,UE/FED,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,5.1,0
+16,Mauritanie,Environnement,UE/FED,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,5.1,3
+17,Mauritanie,Eau & Assainissement,UE/FED,Les comités de gestion de l'eau formés localement assurent une meilleure pérennité.,6.0,4
+17,Mauritanie,Eau & Assainissement,UE/FED,L'hygiène menstruelle doit être intégrée dans tous les programmes WASH scolaires.,6.0,3
+17,Mauritanie,Eau & Assainissement,UE/FED,L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.,6.0,2
+18,Niger,Santé,LuxDev,L'intégration des services de santé maternelle et infantile améliore les taux de consultation.,6.2,0
+18,Niger,Santé,LuxDev,La rupture de stock en médicaments essentiels reste le principal obstacle à la qualité des soins.,6.2,0
+18,Niger,Santé,LuxDev,Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.,6.2,0
+18,Niger,Santé,LuxDev,Le renforcement des capacités du personnel soignant local assure la durabilité des résultats.,6.2,4
+19,Mali,Santé,Banque Mondiale,Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.,5.4,0
+19,Mali,Santé,Banque Mondiale,L'intégration des services de santé maternelle et infantile améliore les taux de consultation.,5.4,0
+20,Mali,Santé,Banque Mondiale,Les campagnes de vaccination mobiles atteignent mieux les populations nomades.,6.6,0
+20,Mali,Santé,Banque Mondiale,L'intégration des services de santé maternelle et infantile améliore les taux de consultation.,6.6,0
+20,Mali,Santé,Banque Mondiale,Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.,6.6,0
+20,Mali,Santé,Banque Mondiale,La rupture de stock en médicaments essentiels reste le principal obstacle à la qualité des soins.,6.6,0
+21,Burkina Faso,Eau & Assainissement,AFD,L'hygiène menstruelle doit être intégrée dans tous les programmes WASH scolaires.,5.6,3
+21,Burkina Faso,Eau & Assainissement,AFD,L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.,5.6,2
+22,Burkina Faso,Santé,Banque Mondiale,Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.,5.5,0
+22,Burkina Faso,Santé,Banque Mondiale,La rupture de stock en médicaments essentiels reste le principal obstacle à la qualité des soins.,5.5,0
+23,Niger,Environnement,UNICEF,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,6.8,2
+23,Niger,Environnement,UNICEF,La reforestation participative avec les communautés assure une meilleure survie des plants.,6.8,4
+23,Niger,Environnement,UNICEF,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,6.8,3
+23,Niger,Environnement,UNICEF,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,6.8,0
+24,Burkina Faso,Environnement,Banque Mondiale,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,6.0,0
+24,Burkina Faso,Environnement,Banque Mondiale,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,6.0,0
+24,Burkina Faso,Environnement,Banque Mondiale,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,6.0,2
+24,Burkina Faso,Environnement,Banque Mondiale,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,6.0,3
+25,RCA,Environnement,UE/FED,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,5.0,2
+25,RCA,Environnement,UE/FED,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,5.0,0
+25,RCA,Environnement,UE/FED,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,5.0,3
+25,RCA,Environnement,UE/FED,La reforestation participative avec les communautés assure une meilleure survie des plants.,5.0,4
+26,Mauritanie,Gouvernance,LuxDev,La formation des élus locaux améliore la qualité des services publics délivrés.,7.4,0
+26,Mauritanie,Gouvernance,LuxDev,Le dialogue entre société civile et autorités locales est un facteur clé de succès.,7.4,0
+26,Mauritanie,Gouvernance,LuxDev,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,7.4,1
+26,Mauritanie,Gouvernance,LuxDev,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,7.4,0
+27,Sénégal,Environnement,LuxDev,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,6.0,2
+27,Sénégal,Environnement,LuxDev,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,6.0,3
+28,Mauritanie,Santé,UNICEF,La rupture de stock en médicaments essentiels reste le principal obstacle à la qualité des soins.,5.7,0
+28,Mauritanie,Santé,UNICEF,L'intégration des services de santé maternelle et infantile améliore les taux de consultation.,5.7,0
+28,Mauritanie,Santé,UNICEF,Les campagnes de vaccination mobiles atteignent mieux les populations nomades.,5.7,0
+28,Mauritanie,Santé,UNICEF,Le renforcement des capacités du personnel soignant local assure la durabilité des résultats.,5.7,4
+29,Mauritanie,Santé,UNICEF,Le renforcement des capacités du personnel soignant local assure la durabilité des résultats.,6.7,4
+29,Mauritanie,Santé,UNICEF,Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.,6.7,0
+29,Mauritanie,Santé,UNICEF,La rupture de stock en médicaments essentiels reste le principal obstacle à la qualité des soins.,6.7,0
+30,Mauritanie,Environnement,AFD,La reforestation participative avec les communautés assure une meilleure survie des plants.,8.4,4
+30,Mauritanie,Environnement,AFD,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,8.4,2
+30,Mauritanie,Environnement,AFD,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,8.4,0
+31,RCA,Environnement,LuxDev,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,6.6,0
+31,RCA,Environnement,LuxDev,La reforestation participative avec les communautés assure une meilleure survie des plants.,6.6,4
+31,RCA,Environnement,LuxDev,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,6.6,0
+32,Niger,Santé,UNICEF,Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.,6.6,0
+32,Niger,Santé,UNICEF,Le renforcement des capacités du personnel soignant local assure la durabilité des résultats.,6.6,4
+33,Mali,Environnement,UNICEF,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,6.2,3
+33,Mali,Environnement,UNICEF,La reforestation participative avec les communautés assure une meilleure survie des plants.,6.2,4
+34,Niger,Eau & Assainissement,Banque Mondiale,La qualité de l'eau doit être testée régulièrement — les résultats doivent être partagés avec les communautés.,6.4,3
+34,Niger,Eau & Assainissement,Banque Mondiale,L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.,6.4,2
+34,Niger,Eau & Assainissement,Banque Mondiale,Les comités de gestion de l'eau formés localement assurent une meilleure pérennité.,6.4,4
+35,RCA,Gouvernance,AFD,Le dialogue entre société civile et autorités locales est un facteur clé de succès.,6.2,0
+35,RCA,Gouvernance,AFD,La formation des élus locaux améliore la qualité des services publics délivrés.,6.2,0
+35,RCA,Gouvernance,AFD,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,6.2,1
+35,RCA,Gouvernance,AFD,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,6.2,0
+36,Burkina Faso,Gouvernance,LuxDev,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,6.5,0
+36,Burkina Faso,Gouvernance,LuxDev,Le dialogue entre société civile et autorités locales est un facteur clé de succès.,6.5,0
+37,Sénégal,Gouvernance,ECHO,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,6.0,0
+37,Sénégal,Gouvernance,ECHO,Le dialogue entre société civile et autorités locales est un facteur clé de succès.,6.0,0
+37,Sénégal,Gouvernance,ECHO,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,6.0,1
+38,RCA,Gouvernance,ECHO,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,7.3,0
+38,RCA,Gouvernance,ECHO,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,7.3,1
+38,RCA,Gouvernance,ECHO,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,7.3,0
+39,Mauritanie,Environnement,ECHO,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,4.0,3
+39,Mauritanie,Environnement,ECHO,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,4.0,0
+40,Niger,Gouvernance,LuxDev,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,4.9,0
+40,Niger,Gouvernance,LuxDev,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,4.9,1
+40,Niger,Gouvernance,LuxDev,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,4.9,0
+41,Burkina Faso,Environnement,LuxDev,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,7.0,0
+41,Burkina Faso,Environnement,LuxDev,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,7.0,0
+41,Burkina Faso,Environnement,LuxDev,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,7.0,3
+41,Burkina Faso,Environnement,LuxDev,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,7.0,2
+42,Mali,Education & Emploi,Banque Mondiale,Le partenariat avec le secteur privé local a facilité l'insertion professionnelle des bénéficiaires.,5.7,0
+42,Mali,Education & Emploi,Banque Mondiale,Le suivi post-formation est essentiel pour mesurer l'insertion durable à 12 mois.,5.7,0
+43,RCA,Santé,UNICEF,Le renforcement des capacités du personnel soignant local assure la durabilité des résultats.,5.4,4
+43,RCA,Santé,UNICEF,L'intégration des services de santé maternelle et infantile améliore les taux de consultation.,5.4,0
+43,RCA,Santé,UNICEF,Les campagnes de vaccination mobiles atteignent mieux les populations nomades.,5.4,0
+43,RCA,Santé,UNICEF,Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.,5.4,0
+44,Burkina Faso,Environnement,UNICEF,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,5.8,0
+44,Burkina Faso,Environnement,UNICEF,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,5.8,2
+44,Burkina Faso,Environnement,UNICEF,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,5.8,0
+45,Mauritanie,Environnement,LuxDev,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,7.4,0
+45,Mauritanie,Environnement,LuxDev,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,7.4,2
+45,Mauritanie,Environnement,LuxDev,Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.,7.4,0
+46,Mali,Education & Emploi,UE/FED,L'approche genre a permis d'augmenter la participation des filles de 20 points de pourcentage.,6.6,0
+46,Mali,Education & Emploi,UE/FED,Le suivi post-formation est essentiel pour mesurer l'insertion durable à 12 mois.,6.6,0
+46,Mali,Education & Emploi,UE/FED,L'implication des communautés locales dans la conception du programme a significativement amélioré le taux de participation.,6.6,0
+46,Mali,Education & Emploi,UE/FED,Le partenariat avec le secteur privé local a facilité l'insertion professionnelle des bénéficiaires.,6.6,0
+47,Sénégal,Environnement,UNICEF,Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.,6.4,2
+47,Sénégal,Environnement,UNICEF,Les systèmes d'alerte précoce sécheresse réduisent significativement les pertes agricoles.,6.4,0
+47,Sénégal,Environnement,UNICEF,La reforestation participative avec les communautés assure une meilleure survie des plants.,6.4,4
+47,Sénégal,Environnement,UNICEF,L'adaptation au changement climatique doit être intégrée dès la formulation des projets.,6.4,3
+48,Burkina Faso,Eau & Assainissement,ECHO,La maintenance communautaire des infrastructures est clé pour la durabilité des interventions.,6.8,0
+48,Burkina Faso,Eau & Assainissement,ECHO,L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.,6.8,2
+49,Mali,Gouvernance,UNICEF,Le dialogue entre société civile et autorités locales est un facteur clé de succès.,5.8,0
+49,Mali,Gouvernance,UNICEF,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,5.8,1
+49,Mali,Gouvernance,UNICEF,La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.,5.8,0
+49,Mali,Gouvernance,UNICEF,La formation des élus locaux améliore la qualité des services publics délivrés.,5.8,0
+50,Mali,Gouvernance,UNICEF,Le dialogue entre société civile et autorités locales est un facteur clé de succès.,6.3,0
+50,Mali,Gouvernance,UNICEF,La formation des élus locaux améliore la qualité des services publics délivrés.,6.3,0
+50,Mali,Gouvernance,UNICEF,La décentralisation effective nécessite un transfert de ressources et pas seulement de compétences.,6.3,1
+50,Mali,Gouvernance,UNICEF,Les mécanismes de redevabilité sociale renforcent la participation citoyenne.,6.3,0
