@@ -1,9 +1,9 @@
 # knowledge-mining-evaluations 🧠
 
 > Extraction automatique de leçons apprises depuis des rapports d'évaluation
-> de projets de développement — Pipeline NLP & Gestion des connaissances
+> de projets de développement - Pipeline NLP & Gestion des connaissances
 
-Développé par **Serge-Alain NYAMSIN** — Expert Évaluation & Data Science  
+Développé par **Serge-Alain NYAMSIN** - Expert Évaluation & Data Science  
 🔗 [github.com/sanyamsin](https://github.com/sanyamsin)
 
 ---
@@ -74,12 +74,12 @@ leçons par secteur et recommandations les plus fréquentes.
 
 ## 🛠️ Technologies utilisées
 
-- **Python 3.12** — Pipeline principal
-- **NLTK** — Traitement du langage naturel
-- **Scikit-learn** — TF-IDF, K-Means, PCA
-- **WordCloud** — Visualisation des mots-clés
-- **Pandas / NumPy** — Manipulation des données
-- **Matplotlib / Seaborn** — Visualisations
+- **Python 3.12** - Pipeline principal
+- **NLTK** - Traitement du langage naturel
+- **Scikit-learn** - F-IDF, K-Means, PCA
+- **WordCloud** - Visualisation des mots-clés
+- **Pandas / NumPy** - Manipulation des données
+- **Matplotlib / Seaborn** - Visualisations
 
 ---
 
@@ -121,7 +121,7 @@ aux équipes de formulation — améliorant ainsi l'apprentissage organisationne
 ## 👤 Auteur
 
 **Serg-alain NYAMSIN**  
-MSc Data Science & AI — DSTI Paris  
+MSc Data Science & AI - DSTI Paris  
 12+ ans en coopération au développement (Sahel, Afrique centrale)  
 🔗 [github.com/sanyamsin](https://github.com/sanyamsin)
 
