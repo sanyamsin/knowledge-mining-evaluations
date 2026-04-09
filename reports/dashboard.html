@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord — Gestion des Connaissances Évaluation</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2c3e50;
+        }
+        header {
+            background: linear-gradient(135deg, #1F4E79, #2E86AB);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        header h1 { font-size: 2em; margin-bottom: 8px; }
+        header p  { opacity: 0.85; font-size: 1.05em; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; }
+
+        /* KPI Cards */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .kpi-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-top: 4px solid #1F4E79;
+        }
+        .kpi-card .value {
+            font-size: 2.2em;
+            font-weight: bold;
+            color: #1F4E79;
+        }
+        .kpi-card .label {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-top: 6px;
+        }
+
+        /* Sections */
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            color: #1F4E79;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #D6E4F0;
+        }
+
+        /* Scores OCDE */
+        .scores-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .score-item { padding: 10px 0; }
+        .score-item label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 6px;
+            color: #2c3e50;
+        }
+
+        /* Leçons */
+        .secteur-block { margin-bottom: 24px; }
+        .secteur-titre {
+            background: #D6E4F0;
+            color: #1F4E79;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .lecon-item {
+            background: #f8f9fa;
+            border-left: 4px solid #1F4E79;
+            padding: 10px 14px;
+            margin-bottom: 8px;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        /* Recommandations */
+        .recommand-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .recommand-num {
+            background: #1F4E79;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.85em;
+            flex-shrink: 0;
+        }
+
+        /* Images */
+        .viz-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .viz-grid img {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #ecf0f1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+            font-size: 0.9em;
+        }
+        footer a { color: #1F4E79; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🧠 Gestion des Connaissances — Évaluation</h1>
+    <p>Extraction automatique de leçons apprises depuis les rapports d'évaluation</p>
+    <p style="margin-top:8px; opacity:0.7;">
+        Serge-Alain NYAMSIN | Expert Évaluation & Data Science |
+        <a href="https://github.com/sanyamsin"
+           style="color:#BDD7EE;">github.com/sanyamsin</a>
+    </p>
+</header>
+
+<div class="container">
+
+    <!-- KPI Cards -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="value">50</div>
+            <div class="label">Rapports analysés</div>
+        </div>
+        <div class="kpi-card">
+            <div class="value">151</div>
+            <div class="label">Leçons extraites</div>
+        </div>
+        <div class="kpi-card">
+            <div class="value">6</div>
+            <div class="label">Pays couverts</div>
+        </div>
+        <div class="kpi-card">
+            <div class="value">5</div>
+            <div class="label">Secteurs analysés</div>
+        </div>
+        <div class="kpi-card">
+            <div class="value">6.2/10</div>
+            <div class="label">Score OCDE/CAD moyen</div>
+        </div>
+        <div class="kpi-card">
+            <div class="value">140.1M€</div>
+            <div class="label">Budget total analysé</div>
+        </div>
+    </div>
+
+    <!-- Scores OCDE/CAD -->
+    <div class="section">
+        <h2>📊 Scores OCDE/CAD moyens</h2>
+        <div class="scores-grid">
+            
+            <div class="score-item">
+                <label>Impact</label>
+                
+    <div style="background:#ecf0f1;border-radius:4px;height:12px;width:100%;">
+        <div style="background:#f39c12;width:60%;height:12px;
+                    border-radius:4px;"></div>
+    </div>
+    <small style="color:#f39c12;font-weight:bold;">6.0/10</small>
+    
+            </div>
+            
+            <div class="score-item">
+                <label>Efficience</label>
+                
+    <div style="background:#ecf0f1;border-radius:4px;height:12px;width:100%;">
+        <div style="background:#f39c12;width:66%;height:12px;
+                    border-radius:4px;"></div>
+    </div>
+    <small style="color:#f39c12;font-weight:bold;">6.6/10</small>
+    
+            </div>
+            
+            <div class="score-item">
+                <label>Pertinence</label>
+                
+    <div style="background:#ecf0f1;border-radius:4px;height:12px;width:100%;">
+        <div style="background:#27ae60;width:75%;height:12px;
+                    border-radius:4px;"></div>
+    </div>
+    <small style="color:#27ae60;font-weight:bold;">7.5/10</small>
+    
+            </div>
+            
+            <div class="score-item">
+                <label>Durabilité</label>
+                
+    <div style="background:#ecf0f1;border-radius:4px;height:12px;width:100%;">
+        <div style="background:#e74c3c;width:45%;height:12px;
+                    border-radius:4px;"></div>
+    </div>
+    <small style="color:#e74c3c;font-weight:bold;">4.5/10</small>
+    
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Leçons apprises par secteur -->
+    <div class="section">
+        <h2>💡 Leçons apprises par secteur</h2>
+        
+        <div class="secteur-block">
+            <div class="secteur-titre">📁 Education & Emploi</div>
+            <div class="lecon-item">✓ L'implication des communautés locales dans la conception du programme a significativement amélioré le taux de participation.</div><div class="lecon-item">✓ Le suivi post-formation est essentiel pour mesurer l'insertion durable à 12 mois.</div><div class="lecon-item">✓ Les modules de formation doivent être adaptés aux réalités du marché du travail local.</div>
+        </div>
+        
+        <div class="secteur-block">
+            <div class="secteur-titre">📁 Environnement</div>
+            <div class="lecon-item">✓ Les femmes sont les principales gardiennes des ressources naturelles dans les zones rurales.</div><div class="lecon-item">✓ L'adaptation au changement climatique doit être intégrée dès la formulation des projets.</div><div class="lecon-item">✓ Les pratiques agro-écologiques améliorent les rendements tout en préservant les sols.</div>
+        </div>
+        
+        <div class="secteur-block">
+            <div class="secteur-titre">📁 Gouvernance</div>
+            <div class="lecon-item">✓ Les mécanismes de redevabilité sociale renforcent la participation citoyenne.</div><div class="lecon-item">✓ La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.</div><div class="lecon-item">✓ La transparence budgétaire renforce la confiance des citoyens envers les institutions locales.</div>
+        </div>
+        
+        <div class="secteur-block">
+            <div class="secteur-titre">📁 Eau & Assainissement</div>
+            <div class="lecon-item">✓ Les comités de gestion de l'eau formés localement assurent une meilleure pérennité.</div><div class="lecon-item">✓ La maintenance communautaire des infrastructures est clé pour la durabilité des interventions.</div><div class="lecon-item">✓ L'accès à l'eau potable réduit de 40% les maladies hydriques dans les zones d'intervention.</div>
+        </div>
+        
+        <div class="secteur-block">
+            <div class="secteur-titre">📁 Santé</div>
+            <div class="lecon-item">✓ L'intégration des services de santé maternelle et infantile améliore les taux de consultation.</div><div class="lecon-item">✓ La rupture de stock en médicaments essentiels reste le principal obstacle à la qualité des soins.</div><div class="lecon-item">✓ Les agents de santé communautaires sont les maillons essentiels de la chaîne de santé primaire.</div>
+        </div>
+        
+    </div>
+
+    <!-- Recommandations fréquentes -->
+    <div class="section">
+        <h2>🎯 Recommandations les plus fréquentes</h2>
+        
+        <div class="recommand-item">
+            <div class="recommand-num">1</div>
+            <div>Renforcer les mécanismes de suivi-évaluation participatif. <span style="color:#95a5a6;">
+                (24x)</span></div>
+        </div>
+        
+        <div class="recommand-item">
+            <div class="recommand-num">2</div>
+            <div>Capitaliser les bonnes pratiques et les diffuser aux autres projets. <span style="color:#95a5a6;">
+                (22x)</span></div>
+        </div>
+        
+        <div class="recommand-item">
+            <div class="recommand-num">3</div>
+            <div>Mettre en place un système de gestion des connaissances. <span style="color:#95a5a6;">
+                (19x)</span></div>
+        </div>
+        
+        <div class="recommand-item">
+            <div class="recommand-num">4</div>
+            <div>Renforcer les capacités des équipes locales. <span style="color:#95a5a6;">
+                (18x)</span></div>
+        </div>
+        
+        <div class="recommand-item">
+            <div class="recommand-num">5</div>
+            <div>Développer des partenariats avec les autorités locales. <span style="color:#95a5a6;">
+                (18x)</span></div>
+        </div>
+        
+    </div>
+
+    <!-- Visualisations -->
+    <div class="section">
+        <h2>📈 Visualisations</h2>
+        <div class="viz-grid">
+            <div>
+                <p style="font-weight:600;margin-bottom:10px;">
+                    WordCloud — Mots-clés</p>
+                <img src="wordcloud_lecons.png"
+                     alt="WordCloud leçons apprises">
+            </div>
+            <div>
+                <p style="font-weight:600;margin-bottom:10px;">
+                    Leçons par secteur</p>
+                <img src="lecons_par_secteur.png"
+                     alt="Leçons par secteur">
+            </div>
+            <div>
+                <p style="font-weight:600;margin-bottom:10px;">
+                    Clustering thématique</p>
+                <img src="clustering_lecons.png"
+                     alt="Clustering thématique">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Généré automatiquement avec Python & NLP |
+       Serge-Alain NYAMSIN —
+       <a href="https://github.com/sanyamsin">github.com/sanyamsin</a>
+    </p>
+</footer>
+
+</body>
+</html>
