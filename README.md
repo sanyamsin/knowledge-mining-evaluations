@@ -114,7 +114,7 @@ start reports/dashboard.html
 Ce projet répond à un besoin réel identifié dans les agences de développement :
 les leçons apprises restent souvent enfouies dans des rapports PDF non exploités.
 Ce pipeline permet de les extraire, classer et restituer automatiquement
-aux équipes de formulation — améliorant ainsi l'apprentissage organisationnel.
+aux équipes de formulation - améliorant ainsi l'apprentissage organisationnel.
 
 ---
 
