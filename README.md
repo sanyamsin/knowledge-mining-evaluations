@@ -1,5 +1,19 @@
 # knowledge-mining-evaluations 🧠
 
+## 📊 Analyse interactive — Notebook
+
+[![Notebook](https://img.shields.io/badge/Analyse-Jupyter%20Notebook-orange)](notebooks/knowledge_mining_analysis.ipynb)
+
+**[→ Voir l'analyse complète](notebooks/knowledge_mining_analysis.ipynb)**
+
+Le notebook couvre :
+- **50 rapports d'évaluation** : 6 pays, 5 secteurs, ~150 leçons apprises
+- **Analyse TF-IDF** : extraction automatique des mots-clés dominants
+- **Clustering K-Means** : 5 thèmes transversaux identifiés automatiquement
+- **Visualisation PCA** : cartographie des leçons dans l'espace thématique
+- **Synthèse actionnable** : recommandations pour les équipes de formulation
+
+> Accessible à tous les publics, chargés de programme, équipes MEL, bailleurs.
 > Extraction automatique de leçons apprises depuis des rapports d'évaluation
 > de projets de développement - Pipeline NLP & Gestion des connaissances
 
